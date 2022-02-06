@@ -1,0 +1,441 @@
+/* WELCOME TEXT */
+h1 {
+  text-align: center;
+  padding-top: 35px;
+  font-family: Monospace;
+}
+p {
+  font-size: 22px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Monospace;
+  background-color: black;
+  padding: 1%;
+}
+/* BODY BACKGROUND */
+body {
+  background: radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(
+      45deg,
+      transparent 74px,
+      transparent 75px,
+      #a4a4a4 75px,
+      #a4a4a4 76px,
+      transparent 77px,
+      transparent 109px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75px,
+      transparent 76px,
+      #a4a4a4 76px,
+      #a4a4a4 77px,
+      transparent 78px,
+      transparent 109px
+    ),
+    #fff;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+/* FRIENDS PIC */
+.ArielI {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 7px 7px 5px;
+  margin: 20px;
+}
+.GalI {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px;
+  margin: 20px;
+}
+.OfirI {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px;
+  margin: 20px;
+}
+.RanI {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px;
+  margin: 20px;
+}
+.ShayI {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px;
+  margin: 20px;
+}
+.TomerI {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px;
+  margin: 20px;
+}
+.VovaI {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px;
+  margin: 20px;
+}
+.ZivI {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px;
+  margin: 20px;
+}
+/* 4 top pic */
+
+.FriendspicTOP {
+  display: inline-flex;
+  position: relative;
+  left: 11%;
+}
+/* 4 BOTTOM PIC */
+.FriendspicBOTTOM {
+  display: inline-flex;
+  position: relative;
+  left: 11%;
+  top: 20%;
+}
+/* ARIEL INFO */
+.containerA {
+  position: relative;
+  width: 50%;
+}
+.overlayA {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 15%;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+
+.containerA:hover .overlayA {
+  opacity: 1;
+}
+
+.textA {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* GAL INFO */
+.containerG {
+  position: relative;
+  width: 50%;
+}
+.overlayG {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 15%;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+
+.containerG:hover .overlayG {
+  opacity: 1;
+}
+
+.textG {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* OFIR INFO */
+.containerO {
+  position: relative;
+  width: 50%;
+}
+.overlayO {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 15%;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+
+.containerO:hover .overlayO {
+  opacity: 1;
+}
+
+.textO {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* RAN INFO */
+.containerR {
+  position: relative;
+  width: 50%;
+}
+.overlayR {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 15%;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+
+.containerR:hover .overlayR {
+  opacity: 1;
+}
+
+.textR {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* SHAY INFO */
+.containerS {
+  position: relative;
+  width: 50%;
+}
+.overlayS {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 15%;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+
+.containerS:hover .overlayS {
+  opacity: 1;
+}
+
+.textS {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* TOMER INFO */
+.containerT {
+  position: relative;
+  width: 50%;
+}
+.overlayT {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 15%;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+
+.containerT:hover .overlayT {
+  opacity: 1;
+}
+
+.textT {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* VOVA INFO */
+.containerV {
+  position: relative;
+  width: 50%;
+}
+.overlayV {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 15%;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+
+.containerV:hover .overlayV {
+  opacity: 1;
+}
+
+.textV {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* ZIV INFO */
+.containerZ {
+  position: relative;
+  width: 50%;
+}
+.overlayZ {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 15%;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+
+.containerZ:hover .overlayZ {
+  opacity: 1;
+}
+
+.textZ {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* buttom */
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(10);
+}
